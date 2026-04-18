@@ -1,5 +1,5 @@
 import { Bot, Sparkles, Shield, Music, Zap, MessageSquare, Globe, Github, Twitter, Mail } from "lucide-react";
-import devAvatar from "@/assets/dev-avatar.jpg";
+import prayagAvatar from "@/assets/prayag-avatar.jpg";
 
 export const siteConfig = {
   bot: {
@@ -110,24 +110,17 @@ export const siteConfig = {
 
   team: [
     {
-      name: "Aarav Sharma",
+      name: "Prayag",
       role: "Founder & Lead Developer",
       bio: "Architects the core. Loves clean code and 3am refactors.",
-      avatar: devAvatar,
+      avatar: prayagAvatar,
       socials: { github: "#", twitter: "#" },
     },
     {
-      name: "Mira Chen",
+      name: "Priyanshu",
       role: "Product Designer",
       bio: "Crafts the pixels you fall in love with. Liquid glass enthusiast.",
-      avatar: devAvatar,
-      socials: { github: "#", twitter: "#" },
-    },
-    {
-      name: "Diego Romero",
-      role: "Backend Engineer",
-      bio: "Keeps Nebula running at 99.99% uptime across 12 regions.",
-      avatar: devAvatar,
+      avatar: "",
       socials: { github: "#", twitter: "#" },
     },
   ],

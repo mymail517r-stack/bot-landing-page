@@ -20,7 +20,7 @@ export const TeamShowcase = () => {
         </p>
       </motion.div>
 
-      <div className="mt-14 grid md:grid-cols-3 gap-6">
+      <div className="mt-14 grid sm:grid-cols-2 gap-6 max-w-3xl mx-auto">
         {siteConfig.team.map((m, i) => (
           <motion.div
             key={m.name}
@@ -32,12 +32,18 @@ export const TeamShowcase = () => {
           >
             <div className="relative w-28 h-28 mx-auto">
               <div className="absolute inset-0 bg-aurora rounded-full blur-2xl opacity-50 group-hover:opacity-80 transition-opacity" />
-              <img
-                src={m.avatar}
-                alt={m.name}
-                loading="lazy"
-                className="relative w-28 h-28 rounded-full object-cover ring-2 ring-primary/40 group-hover:scale-105 transition-transform duration-500"
-              />
+              {m.avatar ? (
+                <img
+                  src={m.avatar}
+                  alt={m.name}
+                  loading="lazy"
+                  className="relative w-28 h-28 rounded-full object-cover ring-2 ring-primary/40 group-hover:scale-105 transition-transform duration-500"
+                />
+              ) : (
+                <div className="relative w-28 h-28 rounded-full grid place-items-center text-5xl bg-muted ring-2 ring-primary/40 group-hover:scale-105 transition-transform duration-500">
+                  🖼️
+                </div>
+              )}
             </div>
             <h3 className="mt-5 font-display font-semibold text-lg">{m.name}</h3>
             <p className="text-sm text-primary font-medium">{m.role}</p>

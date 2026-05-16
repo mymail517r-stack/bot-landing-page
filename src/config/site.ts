@@ -1,19 +1,20 @@
 import { Bot, Sparkles, Shield, Music, Zap, MessageSquare, Globe, Github, Twitter, Mail } from "lucide-react";
 import prayagAvatar from "@/assets/prayag-avatar.jpg";
+import devAvatar from "@/assets/dev-avatar.jpg";
 
 export const siteConfig = {
   bot: {
-    name: "Aerox",
+    name: "Reo",
     tagline: "The next-generation Discord bot",
     description:
-      "Aerox is an all-in-one Discord bot crafted for modern communities. Moderation, music, fun, utilities — beautifully designed and lightning fast.",
+      "Reo is an all-in-one Discord bot crafted for modern communities. Moderation, music, fun, utilities — beautifully designed and lightning fast.",
     version: "v3.2.0",
-    servers: "120K+",
-    users: "8.4M+",
+    servers: "20+",
+    users: "5K+",
     commands: 240,
     uptime: "99.99%",
-    inviteUrl: "https://discord.com/oauth2/authorize",
-    supportUrl: "https://discord.gg/aerox",
+    inviteUrl: "https://discord.com/oauth2/authorize?client_id=1499300646468325436&permissions=8&integration_type=0&scope=bot",
+    supportUrl: "https://discord.gg/qBtseNUYrb",
   },
 
   nav: [
@@ -110,32 +111,32 @@ export const siteConfig = {
 
   team: [
     {
-      name: "AeroX 1",
+      name: "Vortex",
       role: "Founder & Lead Developer",
       bio: "Architects the core. Loves clean code and 3am refactors.",
-      avatar: prayagAvatar,
-      socials: { github: "#", twitter: "#" },
+      avatar: devAvatar,
+      socials: { github: "https://github.com/vortex517", twitter: "#" },
     },
     {
-      name: "AeroX 2",
+      name: "Kanika",
       role: "Product Designer",
       bio: "Crafts the pixels you fall in love with.",
-      avatar: "",
+      avatar: prayagAvatar,
       socials: { github: "#", twitter: "#" },
     },
   ],
 
   faqs: [
     {
-      q: "Is Aerox free to use?",
+      q: "Is Reo free to use?",
       a: "Yes, all core features are completely free. We offer an optional Premium tier for advanced music quality and exclusive customization.",
     },
     {
-      q: "How do I add Aerox to my server?",
+      q: "How do I add Reo to my server?",
       a: "Click the Invite button anywhere on the site, authorize the bot with the Manage Server permission, and you are ready in seconds.",
     },
     {
-      q: "Does Aerox store my messages?",
+      q: "Does Reo store my messages?",
       a: "No. We only store configuration data essential for commands. See our Privacy page for full details.",
     },
     {
@@ -149,16 +150,16 @@ export const siteConfig = {
   ],
 
   contact: {
-    email: "xyz@gmail.com",
-    discord: "https://discord.gg/aerox",
-    github: "https://github.com/AeroXDevs",
-    twitter: "https://twitter.com/nebula_bot",
+    email: "vortex517@proton.me",
+    discord: "https://discord.gg/qBtseNUYrb",
+    github: "https://github.com/Vortex517",
+    twitter: "#",
   },
 
   socials: [
-    { icon: Github, href: "#", label: "GitHub" },
+    { icon: Github, href: "https://github.com/vortex517", label: "GitHub" },
     { icon: Twitter, href: "#", label: "Twitter" },
-    { icon: Mail, href: "xyz@gmail.com", label: "Email" },
+    { icon: Mail, href: "vortex517@proton.me", label: "Email" },
   ],
 
   privacy: {
